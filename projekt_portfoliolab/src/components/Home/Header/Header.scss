@@ -1,0 +1,75 @@
+.background{
+  background-image: url("../../../assets/Home-Hero-Image.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: right;
+  height: 100%;
+  width: 50%;
+}
+.main{
+  display: flex;
+  align-items: center ;
+  flex-direction: column;
+  width: 50%
+}
+
+
+.header{
+  height: 700px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+
+.home{
+
+  margin-top:50px;
+
+article {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #737373;
+}
+  h2{
+    margin-bottom: 2%;
+
+
+  }
+  .decoration {
+    background-image: url("../../../assets/Decoration.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:50%;
+    height:100px;
+    margin-left: 25%;
+  }
+
+  .buttons {
+    display:flex;
+  }
+  .giveclothes {
+    text-transform:uppercase;
+    color: #737373;
+    font-size:32px;
+    border: 1px solid #737373;
+    height: 125px;
+    width: 300px;
+    text-align:center;
+    padding: 10px 0;
+    margin-right: 20px;
+  }
+  .organise{
+    text-transform:uppercase;
+    color: #737373;
+    font-size:32px;
+    border: 1px solid #737373;
+    height: 125px;
+    width: 300px;
+    text-align:center;
+    padding: 10px 0;
+  }
+
+}
+
