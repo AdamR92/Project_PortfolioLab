@@ -1,6 +1,7 @@
 import  React, {Component} from 'react'
 import './Header.scss'
 import Navigation from "../../Navigation/Navigation"
+import{Link} from 'react-router-dom';
 
 
 class Header extends Component {
@@ -17,8 +18,8 @@ class Header extends Component {
                             </article>
                         <div className="decoration"></div>
                             <div className="buttons">
-                                <div className="giveclothes">Oddaj rzeczy</div>
-                                <div className="organise">Zorganizuj zbiórkę</div>
+                                <Link to="/logowanie" className="raise">Oddaj <br/> rzeczy</Link>
+                                <Link to="/logowanie" className="raise">Zorganizuj zbiórkę</Link>
                             </div>
                         </div>
                     </div>
