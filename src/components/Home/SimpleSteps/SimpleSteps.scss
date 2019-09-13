@@ -1,0 +1,121 @@
+.simplesteps{
+  height: 38rem;
+  margin-bottom: 50px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  background-color:#F0F1F1;
+
+  .topstep {
+
+    width:100%;
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 30px;
+      color: #737373;
+    }
+
+    .decoration {
+      background-image: url("../../../assets/Decoration.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 50%;
+      height: 30px;
+      margin-left: 25%;
+      margin-bottom: 150px;
+    }
+  }
+
+  .mainsteps {
+
+    display: flex;
+    justify-content: space-around;
+    background-color: #F0F1F1;
+    width: 100%;
+    height: 16rem;
+
+
+    .steps {
+      justify-content: center;
+      align-items: center;
+      width: 20%;
+      height: 220px;
+
+
+      .stepicon1 {
+        background-image: url("../../../assets/Icon-1.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 3.5rem;
+        margin-bottom: 10px;
+      }
+
+      .stepicon2 {
+        background-image: url("../../../assets/Icon-2.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 3.5rem;
+        margin-bottom: 10px;
+
+      }
+
+      .stepicon3 {
+        background-image: url("../../../assets/Icon-3.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 3.5rem;
+        margin-bottom: 10px;
+      }
+
+      .stepicon4 {
+        background-image: url("../../../assets/Icon-4.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 3.5rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        color: #3C3C3C;
+        margin-bottom: 10px;
+      }
+
+      hr {
+        margin-bottom: 10px;
+        width: 25%;
+        margin-left:100px;
+      }
+
+      span {
+        color: #3C3C3C;
+
+      }
+    }
+  }
+
+    .footstep {
+      width:100%;
+      display:flex;
+      justify-content: center;
+
+      .raise {
+        text-decoration:none;
+        text-transform:uppercase;
+        color: #737373;
+        font-size:32px;
+        border: 1px solid #737373;
+        height: 125px;
+        width: 300px;
+        text-align:center;
+        padding-top: 10px;
+        margin-right: 20px;
+      }
+    }
+
+}
