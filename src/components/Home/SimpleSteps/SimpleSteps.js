@@ -13,6 +13,7 @@ class SimpleSteps extends Component {
                 <h1> Wystarczą 4 proste kroki </h1>
                 <div className="decoration"></div>
                 </div>
+                <div className="widthstep">
                 <div className="mainsteps">
                 <div className="steps">
                     <div className="stepicon1"/>
@@ -36,7 +37,8 @@ class SimpleSteps extends Component {
                     <div className="stepicon4"/>
                     <p>Zamów kuriera</p>
                     <hr/>
-                    <span>kurier przyjedzie <br/> w dogodnym terminie</span>
+                    <span>kurier przyjedzie w <br/> dogodnym terminie</span>
+                </div>
                 </div>
                 </div>
                 <div className="footstep">

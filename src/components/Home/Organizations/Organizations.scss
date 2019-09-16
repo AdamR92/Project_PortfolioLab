@@ -1,5 +1,58 @@
 .organizations{
-  height: 500px;
+  height: 47rem;
   margin-bottom: 20px;
+  width:100%;
 
+  .foundations{
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+   h3 {
+     color: #3C3C3C;
+     font-size: 2rem;
+     margin-bottom: 20px;
+   }
+    .decoration {
+      background-image: url("../../../assets/Decoration.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width:50%;
+      height: 25px;
+      margin-bottom: 50px;
+    }
+
+    .foundations_button {
+      display:flex;
+      justify-content:space-between;
+    }
+    button {
+      width:30%;
+      height:60px;
+      margin:0 80px 40px 60px;
+      padding:5px;
+      background-color:#F0F1F1;
+      color:#3C3C3C;
+      font-size: 1.25rem;
+      text-align:center;
+      outline:none;
+    }
+
+    span{
+      font-size:1.1rem;
+      color:#737373;
+      text-align:center;
+      width: 450px;
+      margin: 0 auto;
+    }
+
+    .buttonBorder {
+      border: 0.0625rem solid #737373;
+    }
+
+
+  }
 }

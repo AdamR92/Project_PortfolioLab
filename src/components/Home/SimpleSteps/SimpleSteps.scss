@@ -28,73 +28,87 @@
     }
   }
 
-  .mainsteps {
-
-    display: flex;
-    justify-content: space-around;
-    background-color: #F0F1F1;
+  .widthstep {
     width: 100%;
-    height: 16rem;
+    background-color: #F0F1F1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+    .mainsteps {
 
-    .steps {
-      justify-content: center;
+      display: flex;
+      justify-content: space-around;
       align-items: center;
-      width: 20%;
-      height: 220px;
+      background-color: #F0F1F1;
+      width: 60%;
+      height: 14rem;
+      margin-bottom:30px;
 
 
-      .stepicon1 {
-        background-image: url("../../../assets/Icon-1.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        height: 3.5rem;
-        margin-bottom: 10px;
-      }
+      .steps {
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        height: 220px;
 
-      .stepicon2 {
-        background-image: url("../../../assets/Icon-2.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        height: 3.5rem;
-        margin-bottom: 10px;
 
-      }
+        .stepicon1 {
+          background-image: url("../../../assets/Icon-1.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          height: 3.5rem;
+          margin-bottom: 10px;
+        }
 
-      .stepicon3 {
-        background-image: url("../../../assets/Icon-3.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        height: 3.5rem;
-        margin-bottom: 10px;
-      }
+        .stepicon2 {
+          background-image: url("../../../assets/Icon-2.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          height: 3.5rem;
+          margin-bottom: 10px;
 
-      .stepicon4 {
-        background-image: url("../../../assets/Icon-4.svg");
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        height: 3.5rem;
-        margin-bottom: 10px;
-      }
+        }
 
-      p {
-        color: #3C3C3C;
-        margin-bottom: 10px;
-      }
+        .stepicon3 {
+          background-image: url("../../../assets/Icon-3.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          height: 3.5rem;
+          margin-bottom: 10px;
+        }
 
-      hr {
-        margin-bottom: 10px;
-        width: 25%;
-        margin-left:100px;
-      }
+        .stepicon4 {
+          background-image: url("../../../assets/Icon-4.svg");
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: center;
+          height: 3.5rem;
+          margin-bottom: 10px;
+        }
 
-      span {
-        color: #3C3C3C;
+        p {
+          color: #3C3C3C;
+          margin-bottom: 10px;
+        }
 
+        hr {
+          margin-bottom: 10px;
+          width: 65%;
+          margin-left: 20px;
+        }
+
+        span {
+          color: #3C3C3C;
+          font-size: 13px;
+
+
+
+        }
       }
     }
   }
