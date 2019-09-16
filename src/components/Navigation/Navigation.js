@@ -33,7 +33,7 @@ class Navigation extends Component {
                 <li> <NavLink exact to="/" style={darkGreyStyle} activeStyle={chosenStyle}>Start</NavLink> </li>
                 <li> <Link activeClass="active" style={darkGreyStyle} className="link" to="SimpleSteps" spy={true} smooth={true} duration={500}>O co chodzi?</Link> </li>
                 <li> <Link activeClass="active" style={darkGreyStyle} className="link" to="About" spy={true} smooth={true} duration={500}>O Nas</Link> </li>
-                <li> <Link activeClass="active" style={darkGreyStyle} className="link" to="Organizations" spy={true} smooth={true} duration={500}>Fundacja i organizacje</Link> </li>
+                <li> <Link activeClass="active" style={darkGreyStyle} className="link" to="Organisations" spy={true} smooth={true} duration={500}>Fundacja i organizacje</Link> </li>
                 <li> <Link activeClass="active" style={darkGreyStyle} className="link" to="Contact" spy={true} smooth={true} duration={500}>Kontakt</Link> </li>
             </ul>
         </nav>

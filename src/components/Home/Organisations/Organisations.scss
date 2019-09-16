@@ -1,0 +1,128 @@
+@import "../../../scss/settings/colors";
+
+.organisations{
+  height: 47rem;
+  margin-bottom: 20px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  .foundations{
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+
+   h3 {
+     color: #3C3C3C;
+     font-size: 2rem;
+     margin-bottom: 20px;
+   }
+    .decoration {
+      background-image: url("../../../assets/Decoration.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width:50%;
+      height: 25px;
+      margin-bottom: 50px;
+    }
+
+    .foundations_button {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        width: 30%;
+        height: 60px;
+        margin: 0 80px 40px 60px;
+        padding: 5px;
+        background-color: #F0F1F1;
+        color: #3C3C3C;
+        font-size: 1.25rem;
+        text-align: center;
+        outline: none;
+        border: 0;
+        cursor:pointer;
+      }
+      .buttonBorder {
+        border: 0.0625rem solid #737373;
+      }
+
+    }
+
+    span{
+      font-size:1.1rem;
+      color:#737373;
+      text-align:center;
+      width: 500px;
+      margin: 0 auto;
+    }
+  }
+
+    .description_found {
+      margin-top: 2rem;
+      height: 50%;
+      width: 80%;
+      .foundationInfo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 2.5rem 0;
+        position: relative;
+
+        &:nth-of-type(2):before {
+          content:"";
+          width:100%;
+          border-top: 0.0625rem solid #737373;
+          position: absolute;
+          bottom: 3.8rem;
+        }
+        &:nth-of-type(2):after {
+          content:"";
+          width:100%;
+          border-top: 0.0625rem solid #737373;
+          position: absolute;
+          top: 3.8rem;
+        }
+        li {
+          list-style-type: none;
+          h3 {
+            font-weight: 300;
+          }
+          p {
+            font-size: 0.8rem;
+          }
+        }
+        span {
+          font-weight: 300;
+          font-size: 0.9rem;
+          color: map_get($colors, "grey");
+        }
+      }
+      hr {
+        width: 100%;
+        border-top: 0.0625rem solid map_get($colors, "darkgrey");
+        margin: 1.5rem 0;
+      }
+      .pageButtons {
+        display: flex;
+        justify-content: center;
+          button {
+            margin: 0 0.5rem;
+            padding: 0.7rem 0.65rem;
+            user-select: none;
+            cursor: pointer;
+            outline: none;
+            background-color: white;
+            border: 0;
+            }
+        .buttonBorder {
+          border: 0.0625rem solid map_get($colors, "grey");
+        }
+      }
+    }
+}
