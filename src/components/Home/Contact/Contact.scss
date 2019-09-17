@@ -1,4 +1,139 @@
-.contact{
-  height: 500px;
-  margin-bottom: 20px;
+@import "../../../scss/settings/colors";
+
+.contact {
+  height: 52rem;
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  position: relative;
+
+  &:after {
+    content: "";
+    background-image: url("../../../assets/Background-Contact-Form.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.2;
+  }
+
+  .contact_footer {
+    width: 50%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .social_icons {
+      display: flex;
+      justify-content:space-between;
+
+      .social_media {
+        background-image: url("../../../assets/Facebook.svg");
+        background-size: contain;
+        background-position: center;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+      }
+
+      .social_media1 {
+        background-image: url("../../../assets/Instagram.svg");
+        background-size: contain;
+        background-position: right;
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+
+  }
 }
+
+.contact_form {
+  height: 49rem;
+  width: 55%;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction:column;
+
+  .contact_message {
+    font-size: 1.7rem;
+    color: map_get($colors, "darkgrey");
+    margin-bottom:1.5rem;
+    margin-left: 10rem;
+  }
+
+  .decoration {
+    background-image: url("../../../assets/Decoration.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:50%;
+    height: 25px;
+    margin-bottom: 1.5rem;
+    margin-left: 9rem;
+  }
+
+
+  .first_input {
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+    margin-left: 9rem;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+      margin-right: 1rem;
+
+    }
+    input {
+      background: none;
+      border: 0;
+      border-bottom: 1px solid map_get($colors, "grey");
+      outline:none;
+      margin-top:1rem;
+    }
+  }
+
+  .second_input {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    margin-left: 9rem;
+    font-size: 0.9rem;
+
+    textarea {
+      display:flex;
+      background: none;
+      border: none;
+      border-bottom: 1px solid map_get($colors, "grey");
+      width: 100%;
+      height: 5rem;
+      outline:none;
+      margin-bottom: 2rem;
+    }
+    .submitButton {
+      width: 30%;
+      height: 40px;
+      background-color: map_get($colors, "white");
+      border: 1px solid map_get($colors, "grey");
+      outline:none;
+      margin-left: 17rem;
+      color: map_get($colors, "grey");
+      cursor: pointer;
+    }
+  }
+}
+
