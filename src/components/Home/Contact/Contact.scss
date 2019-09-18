@@ -23,6 +23,13 @@
     opacity: 0.2;
   }
 
+  .feedback_success {
+    color: green;
+    width:50%;
+    margin-left: 8rem;
+
+  }
+
   .contact_footer {
     width: 50%;
     height: 5rem;
@@ -88,6 +95,12 @@
     margin-bottom: 3.5rem;
     margin-left: 9rem;
 
+  .feedback {
+    color: red;
+    margin-top: 1rem;
+
+  }
+
     label {
       display: flex;
       flex-direction: column;
@@ -103,6 +116,7 @@
       border-bottom: 1px solid map_get($colors, "grey");
       outline:none;
       margin-top:1rem;
+      width:100%;
     }
   }
 
@@ -114,6 +128,13 @@
     margin-left: 9rem;
     font-size: 0.9rem;
 
+    .feedback {
+    color: red;
+    height: 2rem;
+    width:50%;
+
+    }
+
     textarea {
       display:flex;
       background: none;
@@ -122,7 +143,7 @@
       width: 100%;
       height: 5rem;
       outline:none;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
     }
     .submitButton {
       width: 30%;
@@ -130,6 +151,7 @@
       background-color: map_get($colors, "white");
       border: 1px solid map_get($colors, "grey");
       outline:none;
+      margin-top: 2rem;
       margin-left: 17rem;
       color: map_get($colors, "grey");
       cursor: pointer;
