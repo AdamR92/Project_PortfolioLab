@@ -74,7 +74,7 @@ class Login extends Component {
                     <label>
                         Email
                         <input type="email" name="email" value={this.state.email} onChange={this.handleEmailChange}/>
-                        {this.state.errorEmail && <span className="error_feedback">Podany email jest nieprawidłowy!</span>}
+                        {this.state.errorEmail && <span className="error_feedback">Podany e-mail jest nieprawidłowy!</span>}
                     </label>
                     <label>
                         Hasło
