@@ -8,17 +8,17 @@ class LocalPagin extends Component {
 
         this.state = {
             locals: [{
-                title: "Zbiórka Lorem Ipsum 1",
+                title: 'Zbiórka "Lorem Ipsum 1"',
                 mission: "Quis varius quam quisque id diam vel quam elementum pulvinar",
                 subjects: "Egestas, sed, tempus"
             },
                 {
-                    title: "Zbiórka Lorem Ipsum 2",
+                    title: 'Zbiórka "Lorem Ipsum 2"',
                     mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue",
                     subjects: "Ut, aliquam, purus, sit, amet"
                 },
                 {
-                    title: "Zbiórka Lorem Ipsum 3",
+                    title: 'Zbiórka "Lorem Ipsum 3"',
                     mission: "Scelerisque in dictum non consectetur a erat nam",
                     subjects: "Mi, quis, hendretit, dolor"
                 }

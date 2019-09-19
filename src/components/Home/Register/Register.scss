@@ -1,3 +1,83 @@
+@import "../../../scss/settings/colors.scss";
+@import "../../../scss/settings/fonts.scss";
+
 .register {
   margin-left: 15%;
+}
+
+.register_view {
+  width:100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .register_start {
+    margin-top: 8rem;
+    margin-bottom: 1.8rem;
+    span {
+      font-size: 1.8rem;
+      font-family: $font-alt;
+      color: map_get($colors, "darkgrey");
+      margin-left: 7rem;
+    }
+    .decoration {
+      background-image: url("../../../assets/Decoration.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width:80%;
+      height: 70px;
+      margin-left: 5rem;
+    }
+  }
+  .register_details {
+    margin-left: 5rem;
+    background-color: map_get($colors, "white");
+    width: 12.5rem;
+    height: 12rem;
+
+    label {
+      display: block;
+      font-size: 0.8rem;
+      color: map_get($colors, "darkgrey");
+    }
+    input{
+      display:block;
+      height: 2rem;
+      border: none;
+      border-bottom: 1px solid map_get($colors, "grey");
+      background-color:transparent;
+      width:110%;
+      margin-bottom: 2rem;
+      outline:none;
+    }
+
+  }
+  .register_buttons {
+    margin-top: 7rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width: 150%;
+    a {
+      text-decoration:none;
+      color: map_get($colors, "grey");
+
+    }
+    button {
+      width:100px;
+      height: 40px;
+      background-color:transparent;
+      border:none;
+      outline:none;
+      color: map_get($colors, "grey");
+      //margin-right: 4rem;
+    }
+    .border4Button {
+      border: 0.03125rem solid map_get($colors, "grey");
+      background-color: map_get($colors,"white");
+    }
+  }
 }

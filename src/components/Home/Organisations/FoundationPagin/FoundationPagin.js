@@ -7,47 +7,47 @@ class FoundationPagin extends Component {
 
        this.state = {
            foundations: [{
-               title: "Fundacja Dbam o Zdrowie",
+               title:'Fundacja "Dbam o Zdrowie"',
                mission: "Cel i misja: Pomoc osobom w trudnej sytuacji życiowej",
                subjects: "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
            },
                {
-                   title: "Fundacja Dla Dzieci",
+                   title: 'Fundacja "Dla Dzieci"',
                    mission: "Cel i misja: Pomoc dzieciom z ubogich rodzin",
                    subjects: "ubrania, meble i zabawki"
                },
                {
-                   title: "Fundacja Bez Domu",
+                   title: 'Fundacja "Bez Domu"',
                    mission: "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania",
                    subjects: "ubrania, jedzenie i ciepłe koce"
                },
                {
-                   title: "Fundacja Dbam o Zdrowie1",
+                   title: 'Fundacja "Dbam o Zdrowie1"',
                    mission: "Cel i misja: Pomoc osobom w trudnej sytuacji życiowej 1",
                    subjects: "ubrania, jedzenie, sprzęt AGD, meble, zabawki 1"
                },
                {
-                   title: "Fundacja Dla Dzieci 1",
+                   title: 'Fundacja "Dla Dzieci 1"',
                    mission: "Cel i misja: Pomoc dzieciom z ubogich rodzin 1",
                    subjects: "ubrania, meble i zabawki 1"
                },
                {
-                   title: "Fundacja Bez Domu1",
+                   title: 'Fundacja "Bez Domu1"',
                    mission: "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania 1",
                    subjects: "ubrania, jedzenie i ciepłe koce 1"
                },
                {
-                   title: "Fundacja Dbam o Zdrowie 2",
+                   title: 'Fundacja "Dbam o Zdrowie 2"',
                    mission: "Cel i misja: Pomoc osobom w trudnej sytuacji życiowej 2",
                    subjects: "ubrania, jedzenie, sprzęt AGD, meble, zabawki 2"
                },
                {
-                   title: "Fundacja Dla Dzieci 2",
+                   title: 'Fundacja "Dla Dzieci 2"',
                    mission: "Cel i misja: Pomoc dzieciom z ubogich rodzin 2",
                    subjects: "ubrania, meble i zabawki 2"
                },
                {
-                   title: "Fundacja Bez Domu 2",
+                   title: 'Fundacja "Bez Domu 2"',
                    mission: "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania 2",
                    subjects: "ubrania, jedzenie i ciepłe koce 2"
                },

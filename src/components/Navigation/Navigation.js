@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {NavLink} from 'react-router-dom'
 import './Navigation.scss'
 import '../../scss/settings/colors.scss'
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Link } from 'react-scroll'
 
 class Navigation extends Component {
     render() {

@@ -25,7 +25,7 @@
 
   .feedback_success {
     color: green;
-    width:50%;
+    width: 50%;
     margin-left: 8rem;
 
   }
@@ -39,7 +39,7 @@
 
     .social_icons {
       display: flex;
-      justify-content:space-between;
+      justify-content: space-between;
 
       .social_media {
         background-image: url("../../../assets/Facebook.svg");
@@ -60,102 +60,111 @@
     }
 
   }
-}
-
-.contact_form {
-  height: 49rem;
-  width: 55%;
-  display:flex;
-  justify-content:center;
-  align-items: center;
-  flex-direction:column;
-
-  .contact_message {
-    font-size: 1.7rem;
-    color: map_get($colors, "darkgrey");
-    margin-bottom:1.5rem;
-    margin-left: 10rem;
-  }
-
-  .decoration {
-    background-image: url("../../../assets/Decoration.svg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width:50%;
-    height: 25px;
-    margin-bottom: 1.5rem;
-    margin-left: 9rem;
-  }
 
 
-  .first_input {
-    display:flex;
-    justify-content: space-between;
-    margin-bottom: 3.5rem;
-    margin-left: 9rem;
+  .contact_form {
+    height: 49rem;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
-  .feedback {
-    color: red;
-    margin-top: 1rem;
+    .contact_message {
+      font-size: 1.7rem;
+      color: map_get($colors, "darkgrey");
+      margin-bottom: 1.5rem;
+      margin-left: 10rem;
+    }
 
-  }
+    .decoration {
+      background-image: url("../../../assets/Decoration.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 50%;
+      height: 25px;
+      margin-bottom: 1.5rem;
+      margin-left: 9rem;
+    }
 
-    label {
+    form {
+      width:80%;
+    }
+
+
+    .first_input {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 3.5rem;
+      margin-left: 9rem;
+
+      .feedback {
+        color: red;
+        margin-top: 1rem;
+        position: relative;
+
+      }
+
+      label {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        margin-right: 1rem;
+
+      }
+
+      input {
+        background: none;
+        border: 0;
+        border-bottom: 1px solid map_get($colors, "grey");
+        outline: none;
+        margin-top: 1rem;
+        width: 100%;
+      }
+    }
+
+    .second_input {
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
-      margin-top: 1rem;
+      justify-content: space-between;
+      margin-bottom: 6rem;
+      margin-left: 9rem;
       font-size: 0.9rem;
-      margin-right: 1rem;
 
-    }
-    input {
-      background: none;
-      border: 0;
-      border-bottom: 1px solid map_get($colors, "grey");
-      outline:none;
-      margin-top:1rem;
-      width:100%;
-    }
-  }
+      .feedback {
+        color: red;
+        height: 2rem;
+        width: 50%;
 
-  .second_input {
-    display:flex;
-    flex-direction:column;
-    justify-content: space-between;
-    margin-bottom: 6rem;
-    margin-left: 9rem;
-    font-size: 0.9rem;
+      }
 
-    .feedback {
-    color: red;
-    height: 2rem;
-    width:50%;
+      textarea {
+        display: flex;
+        background: none;
+        border: none;
+        border-bottom: 1px solid map_get($colors, "grey");
+        width: 100%;
+        height: 5rem;
+        outline: none;
+        margin-bottom: 1rem;
+      }
 
-    }
+      .submitButton {
+        width: 30%;
+        height: 40px;
+        background-color:transparent;
+        border: 1px solid map_get($colors, "grey");
+        outline: none;
+        margin-top: 2rem;
+        margin-left: 20rem;
+        color: map_get($colors, "grey");
+        cursor: pointer;
 
-    textarea {
-      display:flex;
-      background: none;
-      border: none;
-      border-bottom: 1px solid map_get($colors, "grey");
-      width: 100%;
-      height: 5rem;
-      outline:none;
-      margin-bottom: 1rem;
-    }
-    .submitButton {
-      width: 30%;
-      height: 40px;
-      background-color: map_get($colors, "white");
-      border: 1px solid map_get($colors, "grey");
-      outline:none;
-      margin-top: 2rem;
-      margin-left: 17rem;
-      color: map_get($colors, "grey");
-      cursor: pointer;
+      }
     }
   }
+
 }
-

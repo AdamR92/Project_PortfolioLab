@@ -9,32 +9,32 @@ class OrganisationPagin extends Component {
         this.state = {
             organisations: [
                 {
-                    title: "Organizacja Lorem Ipsum 1",
+                    title: 'Organizacja "Lorem Ipsum 1"',
                     mission: "Quis varius quam quisque id diam vel quam elementum pulvinar",
                     subjects: "Egestas, sed, tempus"
                 },
                 {
-                    title: "Organizacja Lorem Ipsum 2",
+                    title: 'Organizacja "Lorem Ipsum 2"',
                     mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue",
                     subjects: "Ut, aliquam, purus, sit, amet"
                 },
                 {
-                    title: "Organizacja Lorem Ipsum 3",
+                    title: 'Organizacja "Lorem Ipsum 3"',
                     mission: "Scelerique in dictum non consectetur a erat nam",
                     subjects: "Mi, quis, hendretit, dolor"
                 },
                 {
-                    title: "Organizacja Lorem Ipsum 4",
+                    title: 'Organizacja "Lorem Ipsum 4"',
                     mission: "Quis varius quam quisque id diam vel quam elementum pulvinar 4",
                     subjects: "Egestas, sed, tempus 4"
                 },
                 {
-                    title: "Organizacja Lorem Ipsum 5",
+                    title: 'Organizacja "Lorem Ipsum 5"',
                     mission: "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue 5",
                     subjects: "Ut, aliquam, purus, sit, amet 5"
                 },
                 {
-                    title: "Organizacja Lorem Ipsum 6",
+                    title: 'Organizacja "Lorem Ipsum 6"',
                     mission: "Scelerisque in dictum non consectetur a erat nam 6",
                     subjects: "Mi, quis, hendretit, dolor 6"
                 }

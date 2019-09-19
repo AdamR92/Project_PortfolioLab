@@ -1,4 +1,5 @@
 @import "../../../scss/settings/colors";
+@import "../../../scss/settings/fonts";
 
 .organisations{
   height: 47rem;
@@ -50,6 +51,7 @@
       }
       .buttonBorder {
         border: 0.0625rem solid #737373;
+        background-color: map_get($colors, "white");
       }
 
     }
@@ -73,6 +75,7 @@
         align-items: center;
         margin: 2.5rem 0;
         position: relative;
+        font-family: $font-alt;
 
         &:nth-of-type(2):before {
           content:"";
@@ -92,6 +95,7 @@
           list-style-type: none;
           h3 {
             font-weight: 300;
+
           }
           p {
             font-size: 0.8rem;
@@ -117,7 +121,7 @@
             user-select: none;
             cursor: pointer;
             outline: none;
-            background-color: white;
+            background-color: map_get($colors, "white");
             border: 0;
             }
         .buttonBorder {

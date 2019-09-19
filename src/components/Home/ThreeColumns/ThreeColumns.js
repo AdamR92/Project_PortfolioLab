@@ -7,7 +7,7 @@ import './ThreeColumns.scss'
 class ThreeColumns extends Component {
     render() {
         return (
-            <div name="ThreeColumns" className="threecolumns">
+            <div name="ThreeColumns" className="three_columns">
                 <div className="column">
                     <span>10</span>
                     <h4>oddanych worków</h4>
