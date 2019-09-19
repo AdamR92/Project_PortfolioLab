@@ -3,19 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4138a4d7-1a9e-4ef2-b89e-48dfa0cfe840" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Contact/Contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Contact/Contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Login/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Home/Login/Login.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Login/Login.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Organisations/FoundationPagin/FoundationPagin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Organisations/FoundationPagin/FoundationPagin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Organisations/LocalPagin/LocalPagin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Organisations/LocalPagin/LocalPagin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Organisations/OrganisationPagin/OrganisationPagin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Organisations/OrganisationPagin/OrganisationPagin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Organisations/Organisations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Organisations/Organisations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Register/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Register/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Register/Register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Register/Register.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/ThreeColumns/ThreeColumns.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/ThreeColumns/ThreeColumns.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/ThreeColumns/ThreeColumns.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/ThreeColumns/ThreeColumns.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/Navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/settings/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/settings/fonts.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Home/Login/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="345">
+              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -43,75 +32,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Home/Login/Login.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-729">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Register/Register.js">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/Contact/Contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-135">
-              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Register/Register.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Header/Header.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Header/Header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Organisations/Organisations.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="103" column="14" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Home/Organisations/Organisations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/settings/fonts.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/Home/Contact/Contact.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+            <state relative-caret-position="616">
+              <caret line="167" column="3" lean-forward="true" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -179,10 +122,10 @@
         <option value="$PROJECT_DIR$/src/scss/settings/fonts.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/Organisations/Organisations.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/Contact/Contact.scss" />
-        <option value="$PROJECT_DIR$/src/components/Home/Login/Login.js" />
-        <option value="$PROJECT_DIR$/src/components/Home/Login/Login.scss" />
         <option value="$PROJECT_DIR$/src/components/Home/Register/Register.js" />
         <option value="$PROJECT_DIR$/src/components/Home/Register/Register.scss" />
+        <option value="$PROJECT_DIR$/src/components/Home/Login/Login.js" />
+        <option value="$PROJECT_DIR$/src/components/Home/Login/Login.scss" />
       </list>
     </option>
   </component>
@@ -358,12 +301,12 @@
       <workItem from="1568646309666" duration="5230000" />
       <workItem from="1568653315309" duration="35628000" />
       <workItem from="1568808951397" duration="2120000" />
-      <workItem from="1568883582646" duration="2109000" />
+      <workItem from="1568883582646" duration="4882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128486000" />
+    <option name="totallyTimeSpent" value="131259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1373" height="875" extended-state="6" />
@@ -399,6 +342,12 @@
           <line>59</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Home/Contact/Contact.js</url>
+          <line>15</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -603,23 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Contact/Contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2361">
-          <caret line="167" column="3" lean-forward="true" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Contact/Contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Organisations/Organisations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
@@ -642,16 +574,6 @@
         <state relative-caret-position="-540" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Login/Login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Register/Register.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-135">
@@ -662,17 +584,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Home/Login/Login.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Home/Register/Register.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="76" column="5" lean-forward="true" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Contact/Contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="167" column="3" lean-forward="true" selection-start-line="167" selection-start-column="3" selection-end-line="167" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Contact/Contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Login/Login.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Home/Login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
