@@ -1,0 +1,42 @@
+@import "../../../scss/settings/colors";
+
+.logout {
+  margin-left: 15%;
+}
+
+.logout_view {
+  margin-top: 8rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  h2 {
+    font-size: 2.5rem;
+    color: map_get($colors, "darkgrey");
+    width:40%;
+    text-align:center;
+    margin-bottom: 1.5rem;
+  }
+  .decoration {
+    background-image: url("../../../assets/Decoration.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:50%;
+    height: 30px;
+    margin-bottom: 2rem;
+  }
+  .border4Button {
+    border: 0.03125rem solid map_get($colors, "grey");
+    background-color: map_get($colors,"white");
+    width: 10rem;
+    height: 3rem;
+    text-align:center;
+    padding-top: 0.5rem;
+    color: map_get($colors,"grey");
+    text-decoration: none;
+  }
+}
+

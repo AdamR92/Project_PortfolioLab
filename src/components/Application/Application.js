@@ -4,6 +4,7 @@ import Home from '../Home/home'
 import './Application.scss'
 import Login from "../Home/Login/Login"
 import Register from "../Home/Register/Register"
+import Logout from "../Home/Logout/Logout"
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
       <Route exact path="/" component={Home}/>
       <Route exact path="/logowanie" component={Login}/>
       <Route exact path="/rejestracja" component={Register}/>
+      <Route exact path="/wylogowano" component={Logout}/>
           </Switch>
       </HashRouter>
   )
