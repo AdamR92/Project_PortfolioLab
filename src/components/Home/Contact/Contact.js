@@ -12,7 +12,29 @@ state = {
     errorName: false,
     errorMail: false,
     errorMessage: false,
-    formSend: false
+    formSend: false,
+    errorFetch: false
+};
+
+sendForm = (name, email, message) => {
+    fetch("https://fer-api.coderslab.pl/v1/portfolio/contact", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            name,email,message
+        })
+    })
+        .then((data) => {
+            console.log(data);
+            this.setState({formSend: true, errorFetch: false})
+        })
+        .catch((error) => {
+            console.log(error);
+            this.setState({formSend: false, errorFetch: true})
+        })
+
 };
 
 handleSubmit = event => {
@@ -21,29 +43,36 @@ handleSubmit = event => {
     let name=this.state.name;
     let email=this.state.email;
     let message= this.state.message;
-    let formSend = true;
+    let correctMessage = true;
+    this.setState({formSend: false});
 
 
     if(!nameReg.test(name)) {
         this.setState({errorName: true})
-        formSend = false;
+        correctMessage = false;
     } else {
         this.setState({errorName: false})
     }
     if (!mailReg.test(email)) {
         this.setState({errorMail:true})
-        formSend = false;
+        correctMessage = false;
     } else {
         this.setState({errorMail: false})
     }
     if  (message.length < 120 ) {
         this.setState({errorMessage: true})
-        formSend = false;
+        correctMessage = false;
     } else {
         this.setState({errorMessage: false})
     }
 
-    this.setState({formSend: formSend})
+    
+    if(correctMessage) {
+        this.sendForm(name,email,message)
+    }
+    
+    
+    
 
 };
 
@@ -77,7 +106,7 @@ handleChangeMessage = e => {
                       </label>
                       <label>
                       Wpisz swój e-mail
-                          <input type="email" name="email" value={this.state.email} onChange={this.handleChangeEmail} placeholder="jan.kowalski@op.pl"/>
+                          <input type="text" name="email" value={this.state.email} onChange={this.handleChangeEmail} placeholder="jan.kowalski@op.pl"/>
                           {this.state.errorMail && <span className="feedback">Podany email jest nieprawidłowy!</span>}
                       </label>
                   </div>
