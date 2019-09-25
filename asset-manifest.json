@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f4d00c06.chunk.css",
+    "main.js": "/static/js/main.8bfab639.chunk.js",
+    "main.js.map": "/static/js/main.8bfab639.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.54d39109.js",
+    "runtime~main.js.map": "/static/js/runtime~main.54d39109.js.map",
+    "static/js/2.2a2b7411.chunk.js": "/static/js/2.2a2b7411.chunk.js",
+    "static/js/2.2a2b7411.chunk.js.map": "/static/js/2.2a2b7411.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dbd87c334f5f582ce7ff8ce4bc58ad86.js": "/precache-manifest.dbd87c334f5f582ce7ff8ce4bc58ad86.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f4d00c06.chunk.css.map": "/static/css/main.f4d00c06.chunk.css.map",
+    "static/media/Contact.scss": "/static/media/Instagram.703479fd.svg",
+    "static/media/Logout.scss": "/static/media/Decoration.2290784e.svg",
+    "static/media/Header.scss": "/static/media/Home-Hero-Image.e99903ed.jpg",
+    "static/media/SimpleSteps.scss": "/static/media/Icon-4.436df0aa.svg",
+    "static/media/About.scss": "/static/media/Signature.e54cfcfc.svg"
+  }
+}
