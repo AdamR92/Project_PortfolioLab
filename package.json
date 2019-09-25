@@ -13,13 +13,13 @@
     "react-scroll": "^1.7.14"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://AdamR92.github.io/project_oddaj_rzeczy"
+    "homepage": "https://adamr92.github.io/Project_oddaj_rzeczy/"
   },
   "eslintConfig": {
     "extends": "react-app"
