@@ -37,9 +37,13 @@
         margin-left: 5rem;
       }
     }
+    .login_details_background {
+        background-color: map_get($colors, "white");
+        width: 23rem;
+        height: 13rem;
+
       .login_details {
-      margin-left: 5rem;
-      background-color: map_get($colors, "white");
+        margin-left: 5rem;
         width: 12.5rem;
         height: 8rem;
 
@@ -49,27 +53,29 @@
           height: 10rem;
         }
 
-      label {
-        display: block;
-        font-size: 0.8rem;
-        color: map_get($colors, "darkgrey");
-        margin-top: 1rem;
-        height:75%;
-      }
-      input{
-        display:block;
-        height: 2rem;
-        border: none;
-        border-bottom: 1px solid map_get($colors, "grey");
-        background-color:transparent;
-        width:110%;
-        margin-bottom: 0.25rem;
-        outline:none;
-      }
+        label {
+          display: block;
+          font-size: 0.8rem;
+          color: map_get($colors, "darkgrey");
+          margin-top: 1rem;
+          height: 75%;
+        }
+
+        input {
+          display: block;
+          height: 2rem;
+          border: none;
+          border-bottom: 1px solid map_get($colors, "grey");
+          background-color: transparent;
+          width: 110%;
+          margin-bottom: 0.25rem;
+          outline: none;
+        }
 
       }
+    }
     .login_buttons {
-      margin-top: 7rem;
+      margin-top: 3rem;
       display:flex;
       justify-content:space-between;
       align-items:center;
@@ -93,6 +99,7 @@
         border:none;
         outline:none;
         color: map_get($colors, "grey");
+        cursor:pointer;
       }
       .border4Button {
         border: 0.03125rem solid map_get($colors, "grey");
