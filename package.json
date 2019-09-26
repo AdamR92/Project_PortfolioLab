@@ -1,5 +1,6 @@
 {
-  "name": "projekt_portfoliolab",
+  "homepage": "https://adamr92.github.io/Project_oddaj_rzeczy/",
+  "name": "project_oddaj_rzeczy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,13 +14,12 @@
     "react-scroll": "^1.7.14"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "https://adamr92.github.io/Project_oddaj_rzeczy/"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
